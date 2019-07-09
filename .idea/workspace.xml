@@ -1,10 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac7f7d85-b657-47ba-ae80-02138e60bd08" name="Default Changelist" comment="" />
+    <list default="true" id="ac7f7d85-b657-47ba-ae80-02138e60bd08" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solrj/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solrj/src/main/java/com/yootk/solrj/config/SolrConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solrj/src/main/java/com/yootk/solrj/index/SolrAddDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solrj/src/main/java/com/yootk/solrj/index/SolrDeleteDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solrj/src/main/java/com/yootk/solrj/query/SolrBasicQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solrj/src/main/java/com/yootk/solrj/query/SolrBasicQueryAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solrj/src/main/java/com/yootk/solrj/query/SolrBasicQueryComplete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solrj/src/main/java/com/yootk/solrj/util/SolrConnectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solrj/src/main/java/com/yootk/solrj/util/interceptor/AuthRequestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solrj/src/main/profiles/dev/config/solr.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solrj/src/main/resources/spring/spring-base.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solrj/src/test/java/com/yootk/test/TestSolrJ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdatasolr/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdatasolr/src/main/java/com/yootk/solrj/config/SolrConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdatasolr/src/main/java/com/yootk/solrj/dao/IGoodsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdatasolr/src/main/java/com/yootk/solrj/index/SolrAddDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdatasolr/src/main/java/com/yootk/solrj/index/SolrDeleteDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdatasolr/src/main/java/com/yootk/solrj/query/SolrBasicQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdatasolr/src/main/java/com/yootk/solrj/query/SolrBasicQueryAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdatasolr/src/main/java/com/yootk/solrj/query/SolrBasicQueryComplete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdatasolr/src/main/java/com/yootk/solrj/util/SolrConnectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdatasolr/src/main/java/com/yootk/solrj/util/interceptor/AuthRequestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdatasolr/src/main/java/com/yootk/solrj/vo/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdatasolr/src/main/profiles/dev/config/solr.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdatasolr/src/main/resources/spring/spring-base.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdatasolr/src/test/java/com/yootk/test/TestSolrJ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdatasolr/src/test/java/com/yootk/test/TestSpringDataSolr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/dataimport/target/" />
+    <ignored path="$PROJECT_DIR$/solrj/target/" />
+    <ignored path="$PROJECT_DIR$/springdatasolr/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,62 +53,52 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataimport/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataimport/src/main/java/com/yootk/solr/main/StartSolrImportMain.java">
+        <entry file="file://$PROJECT_DIR$/springdatasolr/src/main/java/com/yootk/solrj/vo/Goods.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataimport/src/main/java/com/yootk/solr/task/FullImportTask.java">
+        <entry file="file://$PROJECT_DIR$/springdatasolr/src/test/java/com/yootk/test/TestSpringDataSolr.java">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataimport/src/main/java/com/yootk/solr/util/HttpRequestUtil.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataimport/src/main/java/com/yootk/solr/task/DeltaImportTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dataimport/src/main/profiles/dev/config/solr.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/springdatasolr/src/test/java/com/yootk/test/TestSolrJ.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/dataimport/pom.xml" />
         <option value="$PROJECT_DIR$/dataimport/src/main/java/com/yootk/task/DeltaImportTask.java" />
         <option value="$PROJECT_DIR$/dataimport/src/main/java/com/yootk/solr/task/DeltaImportTask.java" />
+        <option value="$PROJECT_DIR$/dataimport/pom.xml" />
+        <option value="$PROJECT_DIR$/solrj/src/main/java/com/yootk/solrj/query/SolrBasicQuery.java" />
+        <option value="$PROJECT_DIR$/solrj/src/main/java/com/yootk/solrj/query/SolrBasicQueryAuth.java" />
+        <option value="$PROJECT_DIR$/solrj/src/main/java/com/yootk/solrj/query/SolrBasicQueryComplete.java" />
+        <option value="$PROJECT_DIR$/solrj/src/main/java/com/yootk/solrj/util/interceptor/AuthRequestInterceptor.java" />
+        <option value="$PROJECT_DIR$/solrj/src/main/java/com/yootk/solrj/util/SolrConnectionUtil.java" />
+        <option value="$PROJECT_DIR$/solrj/src/main/java/com/yootk/solrj/index/SolrDeleteDocument.java" />
+        <option value="$PROJECT_DIR$/solrj/src/main/profiles/dev/config/solr.properties" />
+        <option value="$PROJECT_DIR$/solrj/pom.xml" />
+        <option value="$PROJECT_DIR$/solrj/src/main/java/com/yootk/solrj/config/SolrConfig.java" />
+        <option value="$PROJECT_DIR$/solrj/src/test/java/com/yootk/test/TestSolrJ.java" />
+        <option value="$PROJECT_DIR$/springdatasolr/pom.xml" />
+        <option value="$PROJECT_DIR$/springdatasolr/src/main/resources/spring/spring-base.xml" />
+        <option value="$PROJECT_DIR$/springdatasolr/src/main/java/com/yootk/solrj/config/SolrConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springdatasolr/src/main/profiles/dev/config/solr.properties" />
+        <option value="$PROJECT_DIR$/springdatasolr/src/main/java/com/yootk/solrj/vo/Goods.java" />
+        <option value="$PROJECT_DIR$/springdatasolr/src/test/java/com/yootk/test/TestSolrJ.java" />
       </list>
     </option>
   </component>
@@ -84,12 +109,19 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="427" />
-    <option name="y" value="137" />
+    <option name="x" value="519" />
+    <option name="y" value="156" />
     <option name="width" value="1381" />
     <option name="height" value="867" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -105,66 +137,108 @@
             <path>
               <item name="solr" type="b2602c69:ProjectViewProjectNode" />
               <item name="solr" type="462c0819:PsiDirectoryNode" />
-              <item name="dataimport" type="462c0819:PsiDirectoryNode" />
+              <item name="springdatasolr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="solr" type="b2602c69:ProjectViewProjectNode" />
               <item name="solr" type="462c0819:PsiDirectoryNode" />
-              <item name="dataimport" type="462c0819:PsiDirectoryNode" />
+              <item name="springdatasolr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="solr" type="b2602c69:ProjectViewProjectNode" />
               <item name="solr" type="462c0819:PsiDirectoryNode" />
-              <item name="dataimport" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solr" type="462c0819:PsiDirectoryNode" />
-              <item name="dataimport" type="462c0819:PsiDirectoryNode" />
+              <item name="springdatasolr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solr" type="462c0819:PsiDirectoryNode" />
+              <item name="springdatasolr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solr" type="462c0819:PsiDirectoryNode" />
+              <item name="springdatasolr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="solrj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solr" type="462c0819:PsiDirectoryNode" />
+              <item name="springdatasolr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="solrj" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solr" type="462c0819:PsiDirectoryNode" />
+              <item name="springdatasolr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="solrj" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solr" type="462c0819:PsiDirectoryNode" />
+              <item name="springdatasolr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="profiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solr" type="462c0819:PsiDirectoryNode" />
+              <item name="springdatasolr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="profiles" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solr" type="462c0819:PsiDirectoryNode" />
+              <item name="springdatasolr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="profiles" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solr" type="462c0819:PsiDirectoryNode" />
+              <item name="springdatasolr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solr" type="462c0819:PsiDirectoryNode" />
+              <item name="springdatasolr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="solr" type="b2602c69:ProjectViewProjectNode" />
               <item name="solr" type="462c0819:PsiDirectoryNode" />
-              <item name="dataimport" type="462c0819:PsiDirectoryNode" />
+              <item name="springdatasolr" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yootk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solr" type="462c0819:PsiDirectoryNode" />
-              <item name="dataimport" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yootk" type="462c0819:PsiDirectoryNode" />
-              <item name="solr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solr" type="462c0819:PsiDirectoryNode" />
-              <item name="dataimport" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yootk" type="462c0819:PsiDirectoryNode" />
-              <item name="solr" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="solr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solr" type="462c0819:PsiDirectoryNode" />
-              <item name="dataimport" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -178,14 +252,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataimport/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springdatasolr/src/test/java/com/yootk" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yootk.test" />
+      <recent name="com.yootk.solrj.config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\MLDN\practice\trashiness\solr\dataimport\src\main" />
-      <recent name="E:\MLDN\practice\trashiness\solr\dataimport\src\main\java\com\yootk" />
+      <recent name="E:\MLDN\practice\trashiness\solr\springdatasolr\src\test\java\com\yootk" />
+      <recent name="E:\MLDN\practice\trashiness\solr\springdatasolr\src\main\java\com\yootk" />
+      <recent name="E:\MLDN\practice\trashiness\solr\springdatasolr\src\main" />
+      <recent name="E:\MLDN\practice\trashiness\solr\solrj\src\main" />
+      <recent name="E:\MLDN\practice\trashiness\solr\solrj\src\main\profiles\dev" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -230,38 +311,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562658463573</updated>
-      <workItem from="1562658468303" duration="934000" />
+      <workItem from="1562658468303" duration="6181000" />
     </task>
+    <task id="LOCAL-00001" summary="数据索引">
+      <created>1562659655075</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562659655076</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="934000" />
+    <option name="totallyTimeSpent" value="6181000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="345" y="111" width="1114" height="699" extended-state="0" />
+    <frame x="419" y="126" width="1114" height="699" extended-state="0" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3560606" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28787878" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" weight="0.329806" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41197184" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41093475" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Maven" weight="0.32954547" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Database" />
@@ -275,26 +364,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="数据索引" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据索引" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/dataimport/src/main/resources/spring-base.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="145" column="10" selection-start-line="145" selection-start-column="10" selection-end-line="145" selection-end-column="10" />
-        </state>
+        <state relative-caret-position="-143" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataimport/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataimport/src/main/java/com/yootk/solr/task/FullImportTask.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataimport/src/main/java/com/yootk/solr/util/HttpRequestUtil.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dataimport/src/main/java/com/yootk/solr/task/DeltaImportTask.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -305,10 +383,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataimport/src/main/resources/spring-base.xml">
+    <entry file="file://$PROJECT_DIR$/dataimport/src/main/java/com/yootk/solr/util/HttpRequestUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataimport/src/main/profiles/dev/config/solr.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-143" />
+        <state relative-caret-position="19">
+          <caret line="1" column="79" selection-start-line="1" selection-start-column="79" selection-end-line="1" selection-end-column="79" />
+        </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataimport/src/main/java/com/yootk/solr/task/FullImportTask.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dataimport/src/main/java/com/yootk/solr/main/StartSolrImportMain.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -317,12 +403,156 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataimport/src/main/profiles/dev/config/solr.properties">
+    <entry file="file://$PROJECT_DIR$/dataimport/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+        <state relative-caret-position="191">
+          <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solrj/src/main/java/com/yootk/solrj/query/SolrBasicQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="91" selection-start-line="10" selection-start-column="91" selection-end-line="10" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solrj/src/main/java/com/yootk/solrj/query/SolrBasicQueryAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="15" column="81" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solrj/src/main/java/com/yootk/solrj/query/SolrBasicQueryComplete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="18" column="81" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solrj/src/main/java/com/yootk/solrj/util/interceptor/AuthRequestInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solrj/src/main/java/com/yootk/solrj/util/SolrConnectionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="81" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solrj/src/main/java/com/yootk/solrj/index/SolrDeleteDocument.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solrj/src/main/java/com/yootk/solrj/index/SolrAddDocument.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solrj/src/main/profiles/dev/config/solr.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solrj/src/main/java/com/yootk/solrj/config/SolrConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-984" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solrj/src/main/resources/spring/spring-base.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solrj/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solrj/src/test/java/com/yootk/test/TestSolrJ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdatasolr/src/main/resources/spring/spring-base.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdatasolr/src/main/java/com/yootk/solrj/query/SolrBasicQuery.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdatasolr/src/main/java/com/yootk/solrj/dao/IGoodsRepository.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdatasolr/src/main/java/com/yootk/solrj/util/interceptor/AuthRequestInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdatasolr/src/main/java/com/yootk/solrj/util/SolrConnectionUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdatasolr/src/main/java/com/yootk/solrj/index/SolrDeleteDocument.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdatasolr/src/main/java/com/yootk/solrj/query/SolrBasicQueryComplete.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdatasolr/src/main/java/com/yootk/solrj/index/SolrAddDocument.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdatasolr/src/main/java/com/yootk/solrj/query/SolrBasicQueryAuth.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="161" column="10" selection-start-line="161" selection-start-column="10" selection-end-line="161" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdatasolr/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdatasolr/src/main/java/com/yootk/solrj/config/SolrConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdatasolr/src/main/profiles/dev/config/solr.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdatasolr/src/main/java/com/yootk/solrj/vo/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdatasolr/src/test/java/com/yootk/test/TestSpringDataSolr.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdatasolr/src/test/java/com/yootk/test/TestSolrJ.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
